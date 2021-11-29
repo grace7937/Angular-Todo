@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HellowComponent } from './hello/hello.component';
 import { HeaderComponent } from './header/header.component';
 import { SectionComponent } from './section/section.component';
+import { ServiceComponent } from './service/service.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { SectionComponent } from './section/section.component';
     HellowComponent,
     HeaderComponent,
     SectionComponent,
+    ServiceComponent,
   ],
   imports: [
     BrowserModule,
